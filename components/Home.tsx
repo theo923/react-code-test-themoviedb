@@ -32,7 +32,7 @@ const Home = ({ props }: childNode): JSX.Element => {
                                 <MovieItem key={idx} movie={movie} />
                             ))
                         ) : (
-                            <div style={{ width: "90vw", height: "60vh" }}>
+                            <div style={{ width: "60vw", height: "60vh" }}>
                                 Sorry, no searching result, please try again.
                             </div>
                         )}
